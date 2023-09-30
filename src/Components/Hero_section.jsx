@@ -35,7 +35,7 @@ const Hero_section = () => {
 export default Hero_section;
 
 const Hero = styled.div`
-  height: 90vh;
+  height: 87.9vh;
   padding: 0 5vw;
   margin: 0 auto;
   color: white;
@@ -78,11 +78,13 @@ const Hero = styled.div`
   }
 
   footer {
-    margin-top: 25vh;
+    margin-top: 15vh;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
+    /* height: 20vh; */
+    /* padding-bottom: -10vh; */
     a {
       color: white;
       text-decoration: none;

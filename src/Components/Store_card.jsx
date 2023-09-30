@@ -1,6 +1,6 @@
 import { styled } from "styled-components";
 
-const Store_card = ({ title, content, link }) => {
+const Store_card = ({ title, content, link, onMouseEnter }) => {
   return (
     <Card>
       <div id="loadBar"></div>

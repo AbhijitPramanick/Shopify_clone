@@ -6,7 +6,7 @@ const Advertisement_userReview = () => {
       <div className={Styles.subContainer}>
         <video
           controls
-          autoplay
+          autoPlay
           muted
           loop
           src="/images/muckBrassVideo.mp4"

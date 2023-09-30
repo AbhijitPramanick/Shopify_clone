@@ -7,7 +7,6 @@ const UserReviewCard = () => {
   const [user, setUser] = useState(true);
   const handleClick = () => {
     setUser(!user);
-    console;
   };
   return (
     <div className={Styles.mainContainer}>
