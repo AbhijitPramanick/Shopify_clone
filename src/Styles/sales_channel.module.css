@@ -1,0 +1,72 @@
+.container {
+  width: 87vw;
+  margin: 0 auto;
+}
+.sell {
+  margin-top: 30vh;
+  display: flex;
+  justify-content: space-between;
+}
+.sell_left {
+  margin-top: 5vh;
+}
+.sideHeading {
+  font-size: 1em;
+}
+.special_btn {
+  width: 25vw;
+  padding: 20px;
+  font-size: 1.2em;
+  font-weight: 550;
+  background-color: transparent;
+  border: none;
+  box-shadow: 0px 3px 0px black;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+}
+.heading1 {
+  font-size: 4em;
+  font-weight: 600;
+  line-height: 1.1;
+  width: 40vw;
+}
+.info {
+  margin: 5vh 0;
+}
+.sell_right {
+  width: 30vw;
+}
+.sell_pics {
+  margin: 15vh auto;
+  display: flex;
+  gap: 4vw;
+}
+.converting_checkout {
+  display: flex;
+  justify-content: space-between;
+}
+.converting_checkout_img img {
+  height: 90vh;
+}
+.converting_checkout_info {
+  margin-top: 30vh;
+  width: 30vw;
+}
+.heading2 {
+  margin-top: 3vh;
+  font-size: 2.2em;
+  line-height: 1.2;
+  font-weight: 600;
+}
+.point_sale {
+  display: flex;
+  justify-content: space-between;
+}
+.point_sale_img img {
+  height: 70vh;
+}
+.point_sale_info {
+  margin-top: 30vh;
+  width: 30vw;
+}

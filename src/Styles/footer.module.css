@@ -1,0 +1,64 @@
+.mainContainer {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  width: 100vw;
+}
+.subContainer {
+  width: 87vw;
+  margin: 0 auto;
+}
+.topSection {
+  padding: 10vh 0;
+  display: flex;
+  justify-content: space-between;
+}
+.listContainer {
+  width: 60vw;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10vh;
+}
+.listBox {
+  display: flex;
+  flex-direction: column;
+  gap: 5vh;
+}
+.listHead {
+  font-size: 1.1em;
+  font-weight: 500;
+}
+.listContent {
+  font-size: 1em;
+  color: black;
+  list-style: none;
+  line-height: 2;
+}
+.listContent li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.termsContactsSection {
+  border-top: 1px solid grey;
+  padding: 2vw;
+  display: flex;
+  justify-content: space-between;
+}
+.tcLeft {
+  display: flex;
+  gap: 4vw;
+}
+
+.tcLeft a {
+  color: black;
+  text-decoration: none;
+}
+.tcRight {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2vw;
+}
+.tcRight img {
+  height: 2em;
+}

@@ -1,0 +1,22 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.mainContainer {
+  width: 100%;
+}
+.subContainer {
+  display: flex;
+  width: 87vw;
+  height: 100vw;
+  align-items: center;
+  justify-content: center;
+  /* border: 5px solid red; */
+  margin: 0 auto;
+}
+.muckVideo {
+  margin: 0 auto;
+  width: 100%;
+  height: 90vh;
+}

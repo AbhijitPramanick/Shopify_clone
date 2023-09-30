@@ -1,0 +1,27 @@
+.stripe {
+  width: 100%;
+  padding: 3vh 0;
+  font-family: ShopifySans, Helvetica, Arial, sans-serif;
+  background-image: linear-gradient(
+    to right,
+    rgb(184, 184, 245),
+    rgb(186, 248, 186) 40%,
+    rgb(249, 192, 192),
+    rgb(184, 184, 245)
+  );
+  overflow: hidden;
+}
+.cnt {
+  width: fit-content;
+  display: flex;
+}
+.elem {
+  display: flex;
+  gap: 3vw;
+  flex-shrink: 0;
+  font-size: 1.9em;
+  line-height: 24px;
+  font-weight: 600;
+  color: black;
+  padding: 0 3vw;
+}

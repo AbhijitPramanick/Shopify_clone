@@ -1,0 +1,32 @@
+.container {
+  padding-top: 35.5vh;
+  padding-bottom: 20vh;
+  background-color: rgb(247, 247, 247);
+}
+#online_store_container {
+  margin: 0 auto;
+  width: 87vw;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+#sideHeading {
+  height: 10vh;
+  font-size: 1em;
+}
+#heading {
+  font-size: 4em;
+  font-weight: 600;
+}
+.displayPic {
+  height: 80vh;
+  background-color: bisque;
+}
+.storeCardsSection {
+  width: 100%;
+  margin: 0 auto;
+  height: 30vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
