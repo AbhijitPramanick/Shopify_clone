@@ -2,7 +2,7 @@ import { styled } from "styled-components";
 
 const Store_card = ({ title, content, link, onMouseEnter }) => {
   return (
-    <Card>
+    <Card onMouseEnter={onMouseEnter}>
       <div id="loadBar"></div>
       <div className="info">
         <p id="cardTitle">{title}</p>

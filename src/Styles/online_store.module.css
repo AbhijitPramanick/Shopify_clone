@@ -19,8 +19,14 @@
   font-weight: 600;
 }
 .displayPic {
-  height: 80vh;
+  height: 75vh;
+  width: 100%;
   background-color: bisque;
+  padding: auto 0;
+}
+.displayPic img {
+  width: 100%;
+  height: 100%;
 }
 .storeCardsSection {
   width: 100%;
